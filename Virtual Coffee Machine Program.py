@@ -75,7 +75,7 @@ while start_coffee_machine:
     elif request== "off":
         start_coffee_machine=False
 
-    #TODO 2: Check if resources are sufficient depending on the request
+    #TODO 2: Check if resources are sufficient depending on the request and make coffee
     else:
         if enough_resources(check_water(request), check_coffee(request), check_milk(request)):
             quarters=int(input("Please insert coins.\nHow many quarters: "))
@@ -87,9 +87,3 @@ while start_coffee_machine:
             make_coffee(request)
         else:
             print("Sorry, there aren't enough resources for your coffee choice.")
-
-#TODO 3: Able to process coins only
-
-#TODO 4: Check transaction/calculate change
-
-#TODO 5: MakeCoffee
