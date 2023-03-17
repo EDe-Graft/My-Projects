@@ -1,2 +1,2 @@
-# My-Projects
+# Random Projects
 Python Coding Programs
